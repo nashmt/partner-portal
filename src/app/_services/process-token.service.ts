@@ -148,12 +148,4 @@ export class ProcessTokenService {
     }
   }
 
-<<<<<<< HEAD
-=======
-
-  /*
-    The methods above are only for getting the tokens in THIS INSTANCE of "process-token"
-    This method is for getting the tokens that have been stored over time in this one persistent instance of InMemoryDataService
-  */
->>>>>>> 536697794f432e2c0e52e924e451ef254cacb689
 }

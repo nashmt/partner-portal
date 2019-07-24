@@ -6,7 +6,7 @@ import { RouterModule } from '@angular/router';
 
 
 import { AppRoutingModule } from './app.routing';
-import { ComponentsModule } from './components/components.module';
+import { ComponentsModule } from './shared_components/components.module';
 
 import { AppComponent } from './app.component';
 

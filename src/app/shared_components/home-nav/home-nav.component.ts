@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { Component, OnInit } from '@angular/core';
 
 import { CookieService } from 'ngx-cookie-service';
@@ -36,30 +35,3 @@ export class NavigationComponent implements OnInit {
   }
 
 }
-=======
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
-import { NavigationComponent } from './navigation.component';
-
-describe('NavigationComponent', () => {
-  let component: NavigationComponent;
-  let fixture: ComponentFixture<NavigationComponent>;
-
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
-      declarations: [ NavigationComponent ]
-    })
-    .compileComponents();
-  }));
-
-  beforeEach(() => {
-    fixture = TestBed.createComponent(NavigationComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
-
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
-});
->>>>>>> 536697794f432e2c0e52e924e451ef254cacb689
