@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { ISHTTPService } from '../_services/ishttp.service';
+import { ISHTTPService } from '../../_services/ishttp.service';
 
 import { CookieService } from 'ngx-cookie-service';
 

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { ProcessTokenService } from '../_services/index';
+import { ProcessTokenService } from '../../_services/index';
 
 import { HttpClient } from '@angular/common/http';
 import { map } from 'rxjs/operators';
