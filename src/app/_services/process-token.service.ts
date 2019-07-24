@@ -6,8 +6,6 @@ import { ActivatedRoute } from '@angular/router';
 
 import { KJUR, b64utoutf8 } from 'jsrsasign';
 
-import { DatabaseService } from './database.service';
-
 import { CookieService } from 'ngx-cookie-service';
 
 
@@ -26,7 +24,6 @@ export class ProcessTokenService {
 
     private location: Location,
     private route: ActivatedRoute,
-    private _database: DatabaseService,
     private cookieMan: CookieService
   ) { 
 
@@ -151,13 +148,4 @@ export class ProcessTokenService {
     }
   }
 
-
-  /*
-    The methods above are only for getting the tokens in THIS INSTANCE of "process-token"
-    This method is for getting the tokens that have been stored over time in this one persistent instance of InMemoryDataService
-  */
-  get database() {
-
-    return this._database;
-  }
 }
