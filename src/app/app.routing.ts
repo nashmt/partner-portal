@@ -4,9 +4,19 @@ import { BrowserModule  } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
+import { HomeLayoutComponent } from './layouts/home-layout/home-layout.component';
 
 const routes: Routes =[
-  {
+
+  { path: '',
+    component: HomeLayoutComponent,
+    children: [{
+      path: '',
+      loadChildren: './layouts/home-layout/home-layout.module#HomeLayoutModule'
+
+    }]
+  }
+  /* {
     path: '',
     redirectTo: '/dashboard',
     pathMatch: 'full',
@@ -17,7 +27,7 @@ const routes: Routes =[
       path: '',
       loadChildren: './layouts/admin-layout/admin-layout.module#AdminLayoutModule'
     }]
-  }
+  } */
 ];
 
 @NgModule({
