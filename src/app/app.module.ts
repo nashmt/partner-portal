@@ -16,6 +16,7 @@ import {
 } from '@agm/core';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { HomeLayoutComponent } from './layouts/home-layout/home-layout.component';
+import { CookieService } from 'ngx-cookie-service';
 @NgModule({
   imports: [
     BrowserAnimationsModule,
@@ -35,7 +36,7 @@ import { HomeLayoutComponent } from './layouts/home-layout/home-layout.component
     HomeLayoutComponent
 
   ],
-  providers: [],
+  providers: [ CookieService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

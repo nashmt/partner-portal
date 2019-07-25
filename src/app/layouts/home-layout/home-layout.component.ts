@@ -6,6 +6,7 @@ import { Router, NavigationEnd, NavigationStart } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
 import PerfectScrollbar from 'perfect-scrollbar';
 import * as $ from "jquery";
+import { HomeNavComponent } from '../../components/home-nav/home-nav.component';
 
 import { NavigationComponent } from '../../shared_components/home-nav/home-nav.component';
 
