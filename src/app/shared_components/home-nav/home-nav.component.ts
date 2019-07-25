@@ -10,7 +10,7 @@ import { Location } from '@angular/common';
   templateUrl: './home-nav.component.html',
   styleUrls: ['./home-nav.component.css']
 })
-export class NavigationComponent implements OnInit {
+export class HomeNavComponent implements OnInit {
 
   private user: string;
 
