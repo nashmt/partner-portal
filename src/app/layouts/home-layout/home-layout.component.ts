@@ -7,6 +7,8 @@ import { Subscription } from 'rxjs/Subscription';
 import PerfectScrollbar from 'perfect-scrollbar';
 import * as $ from "jquery";
 
+import { NavigationComponent } from '../../shared_components/home-nav/home-nav.component';
+
 @Component({
   selector: 'app-home-layout',
   templateUrl: './home-layout.component.html',

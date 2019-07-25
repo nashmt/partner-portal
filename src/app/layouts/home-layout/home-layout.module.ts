@@ -11,6 +11,8 @@ import { IconsComponent } from '../../shared_components/icons/icons.component';
 import { MapsComponent } from '../../shared_components/maps/maps.component';
 import { NotificationsComponent } from '../../shared_components/notifications/notifications.component';
 import { UpgradeComponent } from '../../shared_components/upgrade/upgrade.component';
+import { NavigationComponent } from '../../shared_components/home-nav/home-nav.component';
+
 
 import {
   MatButtonModule,
@@ -31,7 +33,7 @@ import {
     MatFormFieldModule,
     MatInputModule,
     MatSelectModule,
-    MatTooltipModule,
+    MatTooltipModule
   ],
   declarations: [
     DashboardComponent,
@@ -42,6 +44,7 @@ import {
     MapsComponent,
     NotificationsComponent,
     UpgradeComponent,
+    NavigationComponent
   ]
 })
 
