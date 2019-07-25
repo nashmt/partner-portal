@@ -15,19 +15,19 @@ const routes: Routes =[
       loadChildren: './layouts/home-layout/home-layout.module#HomeLayoutModule'
 
     }]
-  }
-  /* {
-    path: '',
-    redirectTo: '/dashboard',
+  },
+   {
+    path: 'admin',
+    redirectTo: 'admin/dashboard',
     pathMatch: 'full',
   }, {
-    path: '',
+    path: 'admin',
     component: AdminLayoutComponent,
     children: [{
-      path: '',
+      path: 'admin',
       loadChildren: './layouts/admin-layout/admin-layout.module#AdminLayoutModule'
     }]
-  } */
+  } 
 ];
 
 @NgModule({
